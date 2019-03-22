@@ -16,6 +16,14 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 - choose one of the access points scanned, enter password, click save
 - ESP will try to connect. If successful, it relinquishes control back to your app. If not, reconnect to AP and reconfigure.
 
+
+
+
+## Examples attached
+- AutoConnect With EEPROM Parameters
+AutoConnect With FS Json6 Parameters
+
+
 ## How It Looks
 
 
