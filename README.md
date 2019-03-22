@@ -23,8 +23,18 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 - AutoConnect With EEPROM Parameters
 - AutoConnect With FS Json6 Parameters
 
+## Attached files
+- New WiFiManager.template.html
+You can modify the library to suit your needs
+
+## Edit Logo
+
+
 
 ## How It Looks
+Use your logo measuring 125 x 125
+Use a svg file
+
 
 
 ![ESP8266 WiFi Captive Portal Home Page](https://a.top4top.net/p_1176kt8mx1.jpg) 
