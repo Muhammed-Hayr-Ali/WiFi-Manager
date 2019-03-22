@@ -24,8 +24,7 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 - AutoConnect With FS Json6 Parameters
 
 ## Attached files
-- New WiFiManager.template.html
-You can modify the library to suit your needs
+- New WiFiManager.template.html (You can modify the library to suit your needs)
 
 ## Edit Logo
 - Use your logo measuring 125 x 125
