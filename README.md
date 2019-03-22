@@ -2,34 +2,10 @@
 # WiFiManager
 ESP8266 WiFi Connection manager with fallback web configuration portal
 
-[![Build Status](https://travis-ci.org/tzapu/WiFiManager.svg?branch=master)](https://travis-ci.org/tzapu/WiFiManager)
 
 The configuration portal is of the captive variety, so on various devices it will present the configuration dialogue as soon as you connect to the created access point.
 
 First attempt at a library. Lots more changes and fixes to do. Contributions are welcome.
-
-#### This works with the ESP8266 Arduino platform with a recent stable release(2.0.0 or newer) https://github.com/esp8266/Arduino
-
-## Contents
- - [How it works](#how-it-works)
- - [Wishlist](#wishlist)
- - [Quick start](#quick-start)
-   - Installing
-     - [Through Library Manager](#install-through-library-manager)
-     - [From Github](#checkout-from-github)
-   - [Using](#using)
- - [Documentation](#documentation)
-   - [Access Point Password](#password-protect-the-configuration-access-point)
-   - [Callbacks](#callbacks)
-   - [Configuration Portal Timeout](#configuration-portal-timeout)
-   - [On Demand Configuration](#on-demand-configuration-portal)
-   - [Custom Parameters](#custom-parameters)
-   - [Custom IP Configuration](#custom-ip-configuration)
-   - [Filter Low Quality Networks](#filter-networks)
-   - [Debug Output](#debug)
- - [Troubleshooting](#troubleshooting)
- - [Releases](#releases)
- - [Contributors](#contributions-and-thanks)
 
 
 ## How It Works
