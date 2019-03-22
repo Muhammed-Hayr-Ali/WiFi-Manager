@@ -28,14 +28,11 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 You can modify the library to suit your needs
 
 ## Edit Logo
-
-
-
-## How It Looks
 Use your logo measuring 125 x 125
 Use a svg file
 
 
+## How It Looks
 
 ![ESP8266 WiFi Captive Portal Home Page](https://a.top4top.net/p_1176kt8mx1.jpg) 
 
