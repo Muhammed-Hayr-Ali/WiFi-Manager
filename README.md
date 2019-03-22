@@ -28,8 +28,8 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 You can modify the library to suit your needs
 
 ## Edit Logo
-Use your logo measuring 125 x 125
-Use a svg file
+- Use your logo measuring 125 x 125
+- Use a svg file
 
 
 ## How It Looks
