@@ -21,7 +21,7 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 
 ## Examples attached
 - AutoConnect With EEPROM Parameters
-AutoConnect With FS Json6 Parameters
+- AutoConnect With FS Json6 Parameters
 
 
 ## How It Looks
