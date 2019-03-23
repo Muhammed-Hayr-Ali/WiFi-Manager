@@ -7,8 +7,7 @@
    https://github.com/chriscook8/esp-arduino-apboot
    https://github.com/esp8266/Arduino/tree/master/libraries/DNSServer/examples/CaptivePortalAdvanced
    Built by AlexT https://github.com/tzapu
-   Developer by Muhammed Hayr Ali https://github.com/Muhammed-Hayr-Ali/wi-fi-Manager
-                                  http://www.pro-syrian.com
+   Developer by Muhammed Hayr Ali https://github.com/Muhammed-Hayr-Ali/wi-fi-Manager  http://www.pro-syrian.com               
    Licensed under MIT license
  **************************************************************/
 
