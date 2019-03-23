@@ -34,22 +34,22 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 ## How It Looks
 
 - Home Page <br>
-  ![ESP8266 WiFi Captive Portal Home Page](https://d.top4top.net/p_1177nle6j1.jpg)
+![ESP8266 WiFi Captive Portal Home Page](https://d.top4top.net/p_1177nle6j1.jpg)
 
- - Configure wifi
-  ![ESP8266 WiFi Captive Portal Configure wifi](https://a.top4top.net/p_1177vlegt1.jpg) 
+ - Configure wifi <br>
+![ESP8266 WiFi Captive Portal Configure wifi](https://a.top4top.net/p_1177vlegt1.jpg) 
 
- - Help
-  ![ESP8266 WiFi Captive Portal Help](https://b.top4top.net/p_1177sdt0v1.jpg) 
+ - Help <br>
+![ESP8266 WiFi Captive Portal Help](https://b.top4top.net/p_1177sdt0v1.jpg) 
  
- - info
-  ![ESP8266 WiFi Captive Portal info](https://e.top4top.net/p_1177zvwul1.jpg) 
+ - info <br>
+![ESP8266 WiFi Captive Portal info](https://e.top4top.net/p_1177zvwul1.jpg) 
 
- - save
- ![ESP8266 WiFi Captive Portal save](https://f.top4top.net/p_1177n4uch1.jpg) 
+ - save <br>
+![ESP8266 WiFi Captive Portal save](https://f.top4top.net/p_1177n4uch1.jpg) 
  
- - Reboot
- ![ESP8266 WiFi Captive Portal Reboot](https://c.top4top.net/p_117729xwj1.jpg) 
+ - Reboot <br>
+![ESP8266 WiFi Captive Portal Reboot](https://c.top4top.net/p_117729xwj1.jpg) 
 
 
 __THANK YOU__
