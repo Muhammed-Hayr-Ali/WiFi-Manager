@@ -33,7 +33,7 @@ First attempt at a library. Lots more changes and fixes to do. Contributions are
 
 ## How It Looks
 
-- Home Page
+- Home Page <br>
   ![ESP8266 WiFi Captive Portal Home Page](https://d.top4top.net/p_1177nle6j1.jpg)
 
  - Configure wifi
