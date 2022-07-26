@@ -17,7 +17,7 @@ char device_name[22]  = "Smart Switch";
 bool shouldSaveConfig = false;
 
 const unsigned long CONNECT_TIMEOUT = 10; // Wait 3 minutes to connect to the real AP before trying to boot the local AP
-const unsigned long AP_TIMEOUT = 20; // Wait 3 minutes in the config portal before trying again the original WiFi creds
+const unsigned long AP_TIMEOUT = 30; // Wait 3 minutes in the config portal before trying again the original WiFi creds
 
 //callback notifying us of the need to save config
 void saveConfigCallback () {
@@ -34,7 +34,7 @@ void setup()
 
   /****************************************************************/
 
-  Serial.println("mounting FS...");
+  Serial.println("\nmounting FS...");
   if (SPIFFS.begin()) {
     Serial.println("mounted file system");
     if (SPIFFS.exists("/config.json")) {
@@ -108,7 +108,6 @@ void setup()
     serializeJson(doc, configFile);
     configFile.close();
   }
-
   //end save
 
   Serial.println("local ip");
@@ -116,9 +115,14 @@ void setup()
 
   Blynk.config(blynk_token);
   bool result = Blynk.connect();
-
   if (result != true) {
     Serial.println("Failed To Connect BLYNK Server");
+    Serial.println("Invalid auth token");
+    Serial.println("Reset Your Device");
+    delay(500);
+    ESP.eraseConfig();
+    delay(500);
+    ESP.restart();
   } else {
     Serial.println("BLYNK Connected");
     Serial.println(blynk_token);
@@ -127,4 +131,19 @@ void setup()
 }
 void loop() {
   Blynk.run();
+}
+
+
+BLYNK_WRITE(V0)
+{
+  int value = param.asInt();
+  if (value == 1) {
+    Serial.println("Invalid auth token");
+    Serial.println("Reset Your Device");
+    delay(500);
+    ESP.eraseConfig();
+    delay(500);
+    ESP.restart();;
+  }
+
 }
